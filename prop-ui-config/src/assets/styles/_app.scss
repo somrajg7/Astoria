@@ -1,0 +1,7 @@
+@import '~libCommonStyles/themes/_theme';
+@import '~libCommonStyles/components/_scrolling-progress-bar';
+@import '_config';
+
+#app {
+  @extend .container;
+}

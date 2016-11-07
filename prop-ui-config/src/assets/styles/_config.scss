@@ -1,0 +1,591 @@
+.config {
+  .navbar.navbar-inverse {
+    border-radius: 0;
+    z-index: 999;
+    margin-bottom: 0;
+
+    .container {
+      width: 100%;
+      padding: 0;
+
+      .navbar-header {
+        display: none;
+        width: 100%;
+        padding: 20px 43px 20px 108px;
+        background: rgba(50, 53, 59, .98);
+        margin-right: 0;
+        margin-left: 0;
+
+        .list-icon {
+          top: -3px;
+          position: relative;
+        }
+
+        .tButton {
+          background: transparent !important;
+          outline: none;
+          border: none;
+        }
+
+        .svg {
+          height: 14px;
+          width: 14px;
+          cursor: pointer;
+        }
+
+        svg {
+          height: 20px;
+          width: 20px;
+          fill: $aux-100;
+
+          .cls-1 {
+            fill: $aux-100;
+          }
+        }
+
+        .navbar-toggle {
+          .center-header {
+            color: $primary-300;
+            position: absolute;
+            left: 30px;
+            top: 8px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+
+          :hover {
+            color: $primary-200;
+          }
+        }
+
+        .navbar-brand {
+          z-index: 99;
+          position: relative;
+
+          .check-icon {
+            display: none;
+            fill: $neutral-100;
+          }
+
+          .database-icon {
+            height: 21px;
+            width: 21px;
+
+            .cls-1 {
+              fill: $neutral-100;
+            }
+          }
+
+          .close-icon {
+            float: right;
+            padding: 0 3px;
+            fill: $neutral-100;
+            position: relative;
+            top: 1px;
+
+            polygon {
+              height: 18px;
+              width: 18px;
+            }
+          }
+
+          .save-icon {
+            float: right;
+            padding: 0 3px;
+
+            .cls-1 {
+              fill: $success-200;
+              height: 14px;
+              width: 14px;
+            }
+          }
+
+          .right-header {
+            float: right;
+            padding: 0 78px 0 9px;
+            color: $success-200;
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+
+        .header {
+          color: $neutral-710;
+          position: relative;
+          top: -1px;
+          padding-left: 14px;
+          font-size: 22px;
+          white-space: nowrap;
+          float: right;
+        }
+      }
+
+      > .navbar-header {
+        display: block;
+      }
+
+      .navbar-header+div {
+        display: table;
+        width: 100%;
+
+        .collapsing,
+        .navbar-collapse.collapse {
+          display: table !important;
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          box-shadow: none;
+          border-top: none;
+          background: rgba(50, 53, 59, .98);
+          padding-top: 8px;
+          padding-bottom: 0;
+
+          ul.nav.navbar-nav {
+            padding: 20px 50px 0 158px;
+
+            li {
+              display: inline-block;
+              padding-left: 20px;
+              padding-right: 20px;
+
+              a {
+                padding-bottom: 19px;
+                font-size: 16px;
+                font-weight: bold;
+                color: $neutral-300;
+                text-transform: uppercase;
+
+                &:hover {
+                  color: $neutral-100;
+                }
+              }
+            }
+
+            .active {
+              a {
+                background: transparent;
+                color: $primary-300;
+
+                &:focus,
+                &:hover {
+                  background: transparent;
+                  color: $primary-300;
+                }
+              }
+            }
+          }
+        }
+
+        .affixed {
+          .navbar-header {
+            display: block;
+            padding: 10px 0 10px 28px;
+          }
+
+          .collapsing,
+          .navbar-collapse.collapse {
+            position: absolute;
+            top: 2px;
+            display: block !important;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            ul.nav.navbar-nav {
+              padding-top: 8px;
+            }
+          }
+
+          .navbar-brand {
+            .header {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .scrolling-progress-bar {
+        display: none;
+      }
+
+      .affixed .scrolling-progress-bar {
+        display: block;
+      }
+
+      .progress {
+        background: rgba(50, 53, 59, 0.98);
+      }
+    }
+  }
+
+  #side-menu {
+    margin-top: 16px;
+
+    .nav-pills {
+      .sub-nav-wrapper {
+        .sub-nav-view {
+          padding: 32px 20px 0 0;
+
+          a {
+            padding: 0;
+            text-align: right;
+            font-size: 15px;
+            font-weight: bold;
+            color: $neutral-300;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+
+          &:hover {
+            a {
+              color: $aux-200;
+            }
+          }
+        }
+
+        .active {
+          a {
+            color: $aux-710;
+          }
+        }
+
+        .sub-side-menu {
+          .sub-section-view {
+            margin-top: 0;
+            margin-bottom: 20px;
+
+            a {
+              padding: 0;
+              text-align: right;
+              padding-right: 20px;
+              text-transform: capitalize;
+              font-size: 14px;
+              font-weight: 600;
+              color: $neutral-300;
+              text-decoration: none;
+
+              &:hover {
+                background-color: transparent;
+              }
+
+              &:focus {
+                background-color: transparent;
+              }
+            }
+
+            &:hover {
+              a {
+                color: $aux-200;
+              }
+            }
+
+            &:nth-of-type(1) {
+              padding-top: 22px;
+            }
+
+            &:nth-last-child(1) {
+              margin-bottom: 0;
+            }
+          }
+
+          .active {
+            a {
+              color: $aux-710;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #main-content {
+    float: right;
+    padding-top: 40px;
+  }
+
+  .affixed {
+    #side-menu {
+      position: fixed;
+      top: 80px;
+    }
+
+    #main-content {
+      margin-top: 85px;
+    }
+  }
+}
+@media only screen and (max-width: $media-min-break-point) {
+  .config {
+    .navbar.navbar-inverse {
+      .container {
+        .navbar-header {
+          display: none;
+          height: 70px;
+          padding: 12px 0 21px 28px;
+
+          .navbar-brand {
+            .right-header {
+              padding-right: 55px;
+            }
+
+            .database-icon {
+              display: block;
+              float: left;
+            }
+
+            .header {
+              font-size: 18px;
+              display: block;
+            }
+
+            .tButton {
+              visibility: visible;
+            }
+
+            .check-icon {
+              display: none;
+            }
+          }
+        }
+
+        > .navbar-header {
+          display: block;
+        }
+
+        .navbar-header+ div {
+          .collapsing,
+          .navbar-collapse.collapse {
+            transition: none;
+            position: relative;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            padding-top: 5px;
+            padding-bottom: 0;
+
+            .list-icon {
+              top: -3px;
+              position: relative;
+            }
+
+            .tButton {
+              background: transparent !important;
+              outline: none;
+              border: none;
+              display: none;
+            }
+
+            .navbar-toggle {
+              float: left;
+              top: 15px;
+              left: 350px;
+
+              .center-header {
+                color: $primary-300;
+                position: absolute;
+                left: 30px;
+                top: 8px;
+                white-space: nowrap;
+                text-transform: uppercase;
+                font-weight: 700;
+              }
+
+              :hover {
+                color: $primary-200;
+              }
+            }
+
+            ul.nav.navbar-nav {
+              padding: 0 50px 0 67px;
+              margin-bottom: 0;
+
+              li {
+                display: inline-block;
+                padding-left: 6px;
+                padding-right: 6px;
+
+                a {
+                  font-size: 13px;
+                  padding-bottom: 17px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+
+          .scrolling-progress-bar {
+            display: none;
+          }
+
+          .affixed {
+            .navbar-header {
+              display: block;
+              padding: 12px 0 21px 28px;
+
+              .navbar-brand {
+                .header {
+                  font-size: 18px;
+                  top: -3px;
+                  display: none;
+                }
+
+                .close-icon > polygon {
+                  height: 14px;
+                  width: 14px;
+                }
+
+                .check-icon {
+                  display: block;
+                }
+
+                .database-icon {
+                  display: none;
+                  height: 17px;
+                  width: 17px;
+
+                  .cls-1 {
+                    fill: $neutral-100;
+                  }
+                }
+              }
+
+              .navbar-toggle {
+                float: left;
+                position: relative;
+                left: 35%;
+              }
+            }
+
+            .collapsing,
+            .navbar-collapse.collapse {
+              top: 0;
+              position: relative;
+              display: block !important;
+              height: 0;
+              background: $aux-800;
+              padding-top: 0;
+              padding-bottom: 0;
+
+              .database-icon {
+                display: none;
+              }
+
+              .check-icon {
+                display: block;
+              }
+
+              .tButton {
+                display: block;
+              }
+
+              ul.nav.navbar-nav {
+                li {
+                  a {
+                    text-transform: capitalize;
+                  }
+                }
+              }
+            }
+
+            .in.navbar-collapse.collapse {
+              height: inherit;
+            }
+          }
+        }
+
+        .affixed {
+          .collapsing + .scrolling-progress-bar,
+          .in.navbar-collapse.collapse + .scrolling-progress-bar {
+            display: none;
+          }
+
+          .navbar-collapse.collapse + .scrolling-progress-bar {
+            display: block;
+
+            .progress-bar {
+              display: block;
+            }
+          }
+        }
+
+        .progress {
+          background: rgba(50, 53, 59, 0.98);
+        }
+      }
+    }
+
+    #side-menu {
+      margin-top: 10px;
+
+      .nav-pills {
+        .sub-nav-wrapper {
+          .sub-nav-view {
+            padding: 27px 20px 0 0;
+
+            a {
+              padding: 0;
+              text-align: right;
+              font-size: 13px;
+              font-weight: bold;
+              color: $neutral-300;
+              text-transform: uppercase;
+              text-decoration: none;
+            }
+
+            &:hover {
+              a {
+                color: $aux-200;
+              }
+            }
+          }
+
+          .active {
+            a {
+              color: $aux-710;
+            }
+          }
+
+          .sub-side-menu {
+            .sub-section-view {
+              margin-top: 0;
+              margin-bottom: 16px;
+
+              a {
+                padding: 0;
+                text-align: right;
+                padding-right: 20px;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 13px;
+              }
+
+              &:nth-of-type(1) {
+                padding-top: 18px;
+              }
+
+              &:nth-last-child(1) {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #main-content {
+      padding-top: 30px;
+    }
+
+    .affixed {
+      #side-menu {
+        position: fixed;
+        top: 110px;
+      }
+
+      #main-content {
+        margin-top: 120px;
+        padding-top: 0;
+      }
+    }
+  }
+}
