@@ -1,0 +1,115 @@
+{
+    "itemId": "brandcodes",
+    "locale": "en-US",
+    "type": "conf",
+    "brandcodes": [
+        {
+            "brandCd": "DT",
+            "brandDesc": "Doubletree",
+            "subBrandCd": "CH",
+            "subBrandDesc": "Club Hotel by Doubletree"
+        },
+        {
+            "brandCd": "CI",
+            "brandDesc": "Conrad International",
+            "subBrandCd": "CI",
+            "subBrandDesc": "Conrad International"
+        },
+        {
+            "brandCd": "DT",
+            "brandDesc": "Doubletree",
+            "subBrandCd": "DH",
+            "subBrandDesc": "Doubletree Hotels"
+        },
+        {
+            "brandCd": "DI",
+            "brandDesc": "Doubletree International",
+            "subBrandCd": "DI",
+            "subBrandDesc": "Doubletree International"
+        },
+        {
+            "brandCd": "ES",
+            "brandDesc": "Embassy Suites",
+            "subBrandCd": "ES",
+            "subBrandDesc": "Embassy Suites"
+        },
+        {
+            "brandCd": "GI",
+            "brandDesc": "Hilton Garden Inn",
+            "subBrandCd": "GI",
+            "subBrandDesc": "Hilton Garden Inn"
+        },
+        {
+            "brandCd": "HH",
+            "brandDesc": "Hampton Inn",
+            "subBrandCd": "HE",
+            "subBrandDesc": "Hampton Inn (Español)"
+        },
+        {
+            "brandCd": "HF",
+            "brandDesc": "Hilton Franchise",
+            "subBrandCd": "HF",
+            "subBrandDesc": "Hilton Franchise"
+        },
+        {
+            "brandCd": "HH",
+            "brandDesc": "Hilton Hotel",
+            "subBrandCd": "HH",
+            "subBrandDesc": "Hilton Hotel"
+        },
+        {
+            "brandCd": "HI",
+            "brandDesc": "Hilton International",
+            "subBrandCd": "HI",
+            "subBrandDesc": "Hilton International"
+        },
+        {
+            "brandCd": "HN",
+            "brandDesc": "Hilton International",
+            "subBrandCd": "HN",
+            "subBrandDesc": "Hilton International"
+        },
+        {
+            "brandCd": "HH",
+            "brandDesc": "Hampton Inn",
+            "subBrandCd": "HS",
+            "subBrandDesc": "Hampton Inn & Suites"
+        },
+        {
+            "brandCd": "HW",
+            "brandDesc": "Homewood Suites",
+            "subBrandCd": "HW",
+            "subBrandDesc": "Homewood Suites"
+        },
+        {
+            "brandCd": "PR",
+            "brandDesc": "Hilton Pointe Resort",
+            "subBrandCd": "PR",
+            "subBrandDesc": "Hilton Pointe Resort"
+        },
+        {
+            "brandCd": "RL",
+            "brandDesc": "Red Lion",
+            "subBrandCd": "RL",
+            "subBrandDesc": "Red Lion"
+        },
+        {
+            "brandCd": "WA",
+            "brandDesc": "Waldorf-Astoria Collection",
+            "subBrandCd": "WA",
+            "subBrandDesc": "Waldorf-Astoria Collection"
+        },
+        {
+            "brandCd": "QQ",
+            "brandDesc": "Curio Collection",
+            "subBrandCd": "QQ",
+            "subBrandDesc": "Curio Collection"
+        },
+        {
+            "brandCd": "PY",
+            "brandDesc": "Canopy",
+            "subBrandCd": "PY",
+            "subBrandDesc": "Canopy"
+        }
+    ]
+}

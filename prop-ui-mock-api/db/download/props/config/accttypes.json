@@ -1,0 +1,15 @@
+{
+    "itemId": "accttypes",
+    "locale": "en-US",
+    "type": "conf",
+    "accttypes": [
+        {
+            "acctDesc": "House",
+            "acctType": "HS"
+        },
+        {
+            "acctDesc": "Accounts Receivable",
+            "acctType": "AR"
+        }
+    ]
+}

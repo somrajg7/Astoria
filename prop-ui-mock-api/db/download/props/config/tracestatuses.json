@@ -1,0 +1,19 @@
+{
+    "itemId": "tracestatuses",
+    "locale": "en-US",
+    "type": "conf",
+    "tracestatuses": [
+        {
+            "statusDesc": "Cancelled",
+            "statusId": "X"
+        },
+        {
+            "statusDesc": "Open",
+            "statusId": "O"
+        },
+        {
+            "statusDesc": "Closed",
+            "statusId": "C"
+        }
+    ]
+}

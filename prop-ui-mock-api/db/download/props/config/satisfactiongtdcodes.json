@@ -1,0 +1,317 @@
+{
+    "itemId": "satisfactiongtdcodes",
+    "locale": "en-US",
+    "type": "conf",
+    "satisfactiongtdcodes": [
+        {
+            "activeFlag": true,
+            "gtdCode": "FB",
+            "gtdDesc": "Banquets/Catering"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "FC",
+            "gtdDesc": "Continental/Complimentary Breakfast"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "FF",
+            "gtdDesc": "Meeting Facilities Set-up"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "FL",
+            "gtdDesc": "Lounge"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "FM",
+            "gtdDesc": "Complimentary Managers"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "FR",
+            "gtdDesc": "Restaurant"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "FS",
+            "gtdDesc": "Room/Suite Service"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "FZ",
+            "gtdDesc": "Misc. Food & Beverage"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HB",
+            "gtdDesc": "Bathroom"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HC",
+            "gtdDesc": "Carpet/Drapes"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HD",
+            "gtdDesc": "Housekeeping/Disturbance"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "HF",
+            "gtdDesc": "Front Lobby"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HI",
+            "gtdDesc": "Inadequate Supplies"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HL",
+            "gtdDesc": "Linens"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HO",
+            "gtdDesc": "Suite/Room Order"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HR",
+            "gtdDesc": "Suite/Room"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "HS",
+            "gtdDesc": "No Service"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "HZ",
+            "gtdDesc": "Misc. Housekeeping"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MB",
+            "gtdDesc": "Bathroom Condition"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MC",
+            "gtdDesc": "Inoperable Toilet"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MG",
+            "gtdDesc": "Grounds/Exterior/Pool"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MH",
+            "gtdDesc": "HVAC"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MI",
+            "gtdDesc": "Insects/Animals"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "ML",
+            "gtdDesc": "Lighting û Bathroom"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MP",
+            "gtdDesc": "Telephone"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MR",
+            "gtdDesc": "Room/Suite Condition"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MT",
+            "gtdDesc": "TV/Remote Control/VCR"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MW",
+            "gtdDesc": "Water"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "MY",
+            "gtdDesc": "My Way"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "MZ",
+            "gtdDesc": "Misc. Maintenance"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "OA",
+            "gtdDesc": "Advertising Promotions"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "OB",
+            "gtdDesc": "Business Center"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "OI",
+            "gtdDesc": "Internet/HRW Room Rates"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "ON",
+            "gtdDesc": "Noise/Outside Disturbance"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "OP",
+            "gtdDesc": "Parking"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "OS",
+            "gtdDesc": "Safety/Security"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "OZ",
+            "gtdDesc": "Misc. Other"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RC",
+            "gtdDesc": "Cancellation Issues"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RD",
+            "gtdDesc": "Arrival/Departure Date"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RG",
+            "gtdDesc": "Guarantee Problems"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RH",
+            "gtdDesc": "Rate Not Honored"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RI",
+            "gtdDesc": "Wrong Info on Amenities/Discount/Directions"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "RL",
+            "gtdDesc": "Wrong Location Booked"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "RM",
+            "gtdDesc": "Name Misspelled"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RO",
+            "gtdDesc": "Overbooked"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RQ",
+            "gtdDesc": "Wrong Rate Quoted"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RR",
+            "gtdDesc": "Room Not Ready"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RT",
+            "gtdDesc": "Wrong # or Type of Rooms/Suites"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "RU",
+            "gtdDesc": "Room/Suite Type/Location Unavailable"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "RZ",
+            "gtdDesc": "Misc. Reservations"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SB",
+            "gtdDesc": "Billing Error"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SC",
+            "gtdDesc": "Slow Check-in/out"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SD",
+            "gtdDesc": "HHonors Hotel Delivery"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SF",
+            "gtdDesc": "Front Desk Staff"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "SG",
+            "gtdDesc": "Guest Assistance"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SH",
+            "gtdDesc": "Housekeeper"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SM",
+            "gtdDesc": "Management"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SV",
+            "gtdDesc": "Valet"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "SW",
+            "gtdDesc": "Did not receive wake-up call"
+        },
+        {
+            "activeFlag": false,
+            "gtdCode": "SZ",
+            "gtdDesc": "Misc. Service"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "XC",
+            "gtdDesc": "Guaranteed No-Shows"
+        },
+        {
+            "activeFlag": true,
+            "gtdCode": "XP",
+            "gtdDesc": "Hotel Policy"
+        }
+    ]
+}

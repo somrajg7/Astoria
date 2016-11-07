@@ -1,0 +1,31 @@
+{
+    "itemId": "mops",
+    "locale": "en-US",
+    "type": "conf",
+    "mops": [
+        {
+            "mopDesc": "CREDIT CARD",
+            "mopType": "CC"
+        },
+        {
+            "mopDesc": "CHECK",
+            "mopType": "CH"
+        },
+        {
+            "mopDesc": "CASH",
+            "mopType": "CS"
+        },
+        {
+            "mopDesc": "DIRECT BILL",
+            "mopType": "DB"
+        },
+        {
+            "mopDesc": "DEPOSITORY PAYMENT",
+            "mopType": "DY"
+        },
+        {
+            "mopDesc": "VOUCHER",
+            "mopType": "VO"
+        }
+    ]
+}

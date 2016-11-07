@@ -1,0 +1,11 @@
+{
+    "itemId": "regcardfields",
+    "propCode": "DALMA",
+    "type": "conf",
+    "regcardfields": [
+        {
+            "fieldId": 1,
+            "sortOrder": 1
+        }
+    ]
+}

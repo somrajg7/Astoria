@@ -1,0 +1,19 @@
+{
+    "itemId": "guestfields",
+    "propCode": "DALMA",
+    "type": "conf",
+    "guestfields": [
+        {
+            "fieldId": 17,
+            "sortOrder": 1
+        },
+        {
+            "fieldId": 3,
+            "sortOrder": 2
+        },
+        {
+            "fieldId": 43,
+            "sortOrder": 3
+        }
+    ]
+}

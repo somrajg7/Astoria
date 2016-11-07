@@ -1,0 +1,55 @@
+{
+    "itemId": "notifications",
+    "locale": "en-US",
+    "propCode": "DALMA",
+    "type": "conf",
+    "notifications": [
+        {
+            "activeFlag": true,
+            "message": "* HOURS OF BAR AND ROOM SERVICE",
+            "msgId": 1,
+            "msgType": "CKN"
+        },
+        {
+            "activeFlag": true,
+            "message": "* 24 HOUR BUSINESS CENTER",
+            "msgId": 2,
+            "msgType": "CKN"
+        },
+        {
+            "activeFlag": true,
+            "message": "OUTDOOR POOL AND HOT TUB",
+            "msgId": 3,
+            "msgType": "CKN"
+        },
+        {
+            "activeFlag": true,
+            "message": "COMPLIMENTARY HIGH SPEED INTERNET ACCESS",
+            "msgId": 4,
+            "msgType": "CKN"
+        },
+        {
+            "activeFlag": true,
+            "message": "YOU MUST HAVE THE APPROVAL CODE FOR THE CREDIT CARD ON THE BACK OF THE REG CARD",
+            "msgId": 5,
+            "msgType": "CKN"
+        },
+        {
+            "activeFlag": false,
+            "msgId": 6,
+            "msgType": "HSK"
+        },
+        {
+            "activeFlag": true,
+            "message": "Test Currecy Notification: Inform the Guest! Rate quoted is based on today's exchange rate. Your room rate at check-in will be based on your arrival date's echange rate, which may result in a fluctuated final exchange value.",
+            "msgId": 7,
+            "msgType": "CUR"
+        },
+        {
+            "activeFlag": true,
+            "message": "Be sure to up-sell Executive Floor and Premium accommodations.",
+            "msgId": 8,
+            "msgType": "SEL"
+        }
+    ]
+}

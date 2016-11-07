@@ -1,0 +1,23 @@
+{
+    "itemId": "roomstatuses",
+    "locale": "en-US",
+    "type": "conf",
+    "roomstatuses": [
+        {
+            "statusDesc": "Ready",
+            "statusId": "RD"
+        },
+        {
+            "statusDesc": "Clean",
+            "statusId": "CL"
+        },
+        {
+            "statusDesc": "Dirty",
+            "statusId": "DT"
+        },
+        {
+            "statusDesc": "PickUp",
+            "statusId": "PK"
+        }
+    ]
+}

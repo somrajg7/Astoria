@@ -1,0 +1,15 @@
+{
+    "itemId": "roomstates",
+    "locale": "en-US",
+    "type": "conf",
+    "roomstates": [
+        {
+            "stateDesc": "Rental",
+            "stateId": "R"
+        },
+        {
+            "stateDesc": "Non-Rental",
+            "stateId": "N"
+        }
+    ]
+}

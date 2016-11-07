@@ -1,0 +1,27 @@
+{
+    "itemId": "accountfields",
+    "propCode": "DALMA",
+    "type": "conf",
+    "accountfields": [
+        {
+            "fieldId": 17,
+            "sortOrder": 1
+        },
+        {
+            "fieldId": 3,
+            "sortOrder": 2
+        },
+        {
+            "fieldId": 44,
+            "sortOrder": 3
+        },
+        {
+            "fieldId": 8,
+            "sortOrder": 4
+        },
+        {
+            "fieldId": 23,
+            "sortOrder": 5
+        }
+    ]
+}

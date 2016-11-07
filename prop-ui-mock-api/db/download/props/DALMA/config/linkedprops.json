@@ -1,0 +1,22 @@
+{
+    "itemId": "linkedprops",
+    "propCode": "DALMA",
+    "type": "conf",
+    "linkedprops": [
+        {
+            "activeFlag": false,
+            "mainFlag": true,
+            "propCode": "DALMA"
+        },
+        {
+            "activeFlag": false,
+            "mainFlag": false,
+            "propCode": "TESTA"
+        },
+        {
+            "activeFlag": false,
+            "mainFlag": false,
+            "propCode": "TESTD"
+        }
+    ]
+}

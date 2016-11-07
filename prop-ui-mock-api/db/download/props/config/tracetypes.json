@@ -1,0 +1,27 @@
+{
+    "itemId": "tracetypes",
+    "locale": "en-US",
+    "type": "conf",
+    "tracetypes": [
+        {
+            "traceDesc": "Alert",
+            "traceType": "AL"
+        },
+        {
+            "traceDesc": "Message",
+            "traceType": "MS"
+        },
+        {
+            "traceDesc": "Locator",
+            "traceType": "LC"
+        },
+        {
+            "traceDesc": "Service Recovery",
+            "traceType": "SR"
+        },
+        {
+            "traceDesc": "Special Needs",
+            "traceType": "SN"
+        }
+    ]
+}

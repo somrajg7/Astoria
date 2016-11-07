@@ -1,0 +1,19 @@
+{
+    "itemId": "requestcodetypes",
+    "locale": "en-US",
+    "type": "conf",
+    "requestcodetypes": [
+        {
+            "requestCodeType": 1,
+            "requestCodeTypeDesc": "VIP"
+        },
+        {
+            "requestCodeType": 2,
+            "requestCodeTypeDesc": "Turndown"
+        },
+        {
+            "requestCodeType": 3,
+            "requestCodeTypeDesc": "Disability"
+        }
+    ]
+}

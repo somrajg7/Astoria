@@ -1,0 +1,34 @@
+{
+    "ctyhocn": "TESTDHH",
+    "distributionBrand": "HH",
+    "name": "Test Hotel D",
+    "propCode": "TESTD",
+    "totalRooms": 240,
+    "address": {
+        "addressLine1": "2325 North Stemmons Freeway",
+        "city": "Dallas",
+        "country": "United States",
+        "postalCode": "75207",
+        "state": "TX"
+    },
+    "bookingparameters": {
+        "rewardCategory": 4,
+        "status": "O"
+    },
+    "capabilities": {
+        "digitalCheckIn": true,
+        "digitalKey": false
+    },
+    "contactinfo": {
+        "emailAddress1": "Varun.Khandelwal@hilton.com",
+        "faxNumber": "2146348202",
+        "phoneExtension": "0",
+        "phoneNumber": "2146348200"
+    },
+    "localization": {
+        "currency": "USD",
+        "latitude": 32.8023,
+        "longitude": -96.8325,
+        "timeZone": "GMT-06:00"
+    }
+}

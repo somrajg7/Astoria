@@ -1,0 +1,47 @@
+{
+    "itemId": "acctctgtypes",
+    "locale": "en-US",
+    "type": "conf",
+    "acctctgtypes": [
+        {
+            "accountingType": "A",
+            "acctCategoryType": "ALLOWED",
+            "acctCategoryTypeDesc": "ALLOWANCES"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "BADDEBT",
+            "acctCategoryTypeDesc": "Bad Debt"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "CHARGES",
+            "acctCategoryTypeDesc": "CHARGES"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "PAIDOUT",
+            "acctCategoryTypeDesc": "PAIDOUTS"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "PAYMENT",
+            "acctCategoryTypeDesc": "PAYMENTS"
+        },
+        {
+            "accountingType": "S",
+            "acctCategoryType": "STAT",
+            "acctCategoryTypeDesc": "STATISTICS"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "TAX",
+            "acctCategoryTypeDesc": "TAX"
+        },
+        {
+            "accountingType": "A",
+            "acctCategoryType": "TRANSFR",
+            "acctCategoryTypeDesc": "Transfers"
+        }
+    ]
+}

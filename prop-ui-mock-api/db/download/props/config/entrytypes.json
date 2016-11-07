@@ -1,0 +1,51 @@
+{
+    "itemId": "entrytypes",
+    "locale": "en-US",
+    "type": "conf",
+    "entrytypes": [
+        {
+            "entryDesc": "Adjustment",
+            "entryType": "ADJUST"
+        },
+        {
+            "entryDesc": "Allowance",
+            "entryType": "ALLOWE"
+        },
+        {
+            "entryDesc": "Manager Correction (Stand-alone)",
+            "entryType": "APYMGR"
+        },
+        {
+            "entryDesc": "Payment Correction",
+            "entryType": "APYTRN"
+        },
+        {
+            "entryDesc": "Charge",
+            "entryType": "CHARGE"
+        },
+        {
+            "entryDesc": "Expense",
+            "entryType": "EXPENS"
+        },
+        {
+            "entryDesc": "Guest Satisfaction (Revenue)",
+            "entryType": "GSTSAT"
+        },
+        {
+            "entryDesc": "Guest Satisfaction (Non-Revenue)",
+            "entryType": "GSTSNR"
+        },
+        {
+            "entryDesc": "Payment",
+            "entryType": "PAYMNT"
+        },
+        {
+            "entryDesc": "Guest Paid Out",
+            "entryType": "PAYOUT"
+        },
+        {
+            "entryDesc": "Cash Refund",
+            "entryType": "REFNOR"
+        }
+    ]
+}

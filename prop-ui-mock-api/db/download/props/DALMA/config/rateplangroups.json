@@ -1,0 +1,15 @@
+{
+    "itemId": "rateplangroups",
+    "propCode": "DALMA",
+    "type": "conf",
+    "rateplangroups": [
+        {
+            "rateplanId": "DAY",
+            "rateplanType": "DU"
+        },
+        {
+            "rateplanId": "DU",
+            "rateplanType": "DU"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "itemId": "chrgctgs",
+    "locale": "en-US",
+    "type": "conf",
+    "chrgctgs": [
+        {
+            "chargeCategoryDesc": "Beverage",
+            "chargeType": "B",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Food",
+            "chargeType": "F",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Package",
+            "chargeType": "K",
+            "packageFlag": true,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Miscellaneous",
+            "chargeType": "M",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Phone",
+            "chargeType": "P",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Room",
+            "chargeType": "R",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Shops",
+            "chargeType": "S",
+            "packageFlag": false,
+            "visibleFlag": true
+        },
+        {
+            "chargeCategoryDesc": "Taxes",
+            "chargeType": "T",
+            "packageFlag": false,
+            "visibleFlag": false
+        }
+    ]
+}

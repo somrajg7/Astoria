@@ -1,0 +1,23 @@
+{
+    "itemId": "notificationtypes",
+    "locale": "en-US",
+    "type": "conf",
+    "notificationtypes": [
+        {
+            "typeDesc": "Checkin",
+            "typeId": "CKN"
+        },
+        {
+            "typeDesc": "Housekeeping",
+            "typeId": "HSK"
+        },
+        {
+            "typeDesc": "Currency Change",
+            "typeId": "CUR"
+        },
+        {
+            "typeDesc": "Selling Strategy",
+            "typeId": "SEL"
+        }
+    ]
+}

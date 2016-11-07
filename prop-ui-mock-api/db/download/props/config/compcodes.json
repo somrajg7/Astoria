@@ -1,0 +1,31 @@
+{
+    "itemId": "compcodes",
+    "locale": "en-US",
+    "type": "conf",
+    "compcodes": [
+        {
+            "codeDesc": "Complimentary",
+            "codeId": "C"
+        },
+        {
+            "codeDesc": "Non-Complimentary",
+            "codeId": "N"
+        },
+        {
+            "codeDesc": "House Use",
+            "codeId": "H"
+        },
+        {
+            "codeDesc": "Owner Comp",
+            "codeId": "O"
+        },
+        {
+            "codeDesc": "Permanent Resident",
+            "codeId": "P"
+        },
+        {
+            "codeDesc": "Guest Comp",
+            "codeId": "G"
+        }
+    ]
+}

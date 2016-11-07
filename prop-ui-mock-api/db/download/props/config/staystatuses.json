@@ -1,0 +1,27 @@
+{
+    "itemId": "staystatuses",
+    "locale": "en-US",
+    "type": "conf",
+    "staystatuses": [
+        {
+            "statusDesc": "Cancelled",
+            "statusId": "cancelled"
+        },
+        {
+            "statusDesc": "Confirmed",
+            "statusId": "confirmed"
+        },
+        {
+            "statusDesc": "Digital Checkin",
+            "statusId": "checkinRequested"
+        },
+        {
+            "statusDesc": "In-House",
+            "statusId": "inHouse"
+        },
+        {
+            "statusDesc": "Checked Out",
+            "statusId": "checkout"
+        }
+    ]
+}

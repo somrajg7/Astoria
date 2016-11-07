@@ -1,0 +1,115 @@
+{
+    "apiDocsDir": "api-docs",
+    "tempDir": "tmp",
+    "config": {
+        "git": "https://jira.hilton.com/stash/projects",
+        "git_prop": "https://jira.hilton.com/stash/projects/RDPROPERTY/repos/",
+        "git_doc_msg": "https://jira.hilton.com/stash/projects/RDPROPERTY/repos/prop-couchbase-docs/browse/messages-svc/",
+        "prop_accounts_test": "https://propaccounts.test.hiltonapi.com/props/",
+        "prop_audit_test": "https://propaudit.test.hiltonapi.com/props/",
+        "prop_config_test": "https://propconfig.test.hiltonapi.com/props/",
+        "prop_folio_test": "https://propfolio.test.hiltonapi.com/props/",
+        "prop_messages_test": "https://propmessages.test.hiltonapi.com/props/",
+        "prop_postingcodes_test": "https://proppostingcodes.test.hiltonapi.com/props/"
+    },
+    "swagger": {
+        "output": "api-docs/props-mock-api.json",
+        "info": {
+            "version": "1.0",
+            "title": "Mock Property Service API",
+            "description": "Mock API for testing property services."
+        },
+        "urls": [
+            "file::swagger/PropAPI.yaml",
+            "git_prop::prop-accounts-svc/browse/src/main/resources/PropertyAccountsService-v1.yaml?raw",
+            "git_prop::prop-audit-svc/browse/src/main/resources/PropertyAuditService-v1.yaml?raw",
+            "git_prop::prop-config-svc/browse/src/main/resources/PropertyConfigService-v1.yaml?raw",
+            "git_prop::prop-folios-svc/browse/src/main/resources/PropertyFoliosService-v1.yaml?raw",
+            "git_prop::prop-messages-svc/browse/src/main/resources/PropertyMessagesService-v1.yaml?raw",
+            "git_prop::prop-postingcodes-svc/browse/src/main/resources/PropertyPostingCodesService-v1.yaml?raw"
+        ]
+    },
+    "mockData": [
+        {
+            "urls": [
+                "git_doc_msg::en-US__messages__test.json?raw", "git_doc_msg::en-US__messages__testtwo.json?raw"
+            ],
+            "output": "/props/messages"
+        }, {
+            "headers": {
+                "Accept-Language": "en-US"
+            },
+            "urls": [
+                "prop_config_test::config/acctctgtypes",
+                "prop_config_test::config/accttypes",
+                "prop_config_test::config/brandcodes",
+                "prop_config_test::config/checkouttypes",
+                "prop_config_test::config/chrgctgs",
+                "prop_config_test::config/compcodes",
+                "prop_config_test::config/entrytypes",
+                "prop_config_test::config/gueststatuses",
+                "prop_config_test::config/mops",
+                "prop_config_test::config/noshowstatuses",
+                "prop_config_test::config/notificationtypes",
+                "prop_config_test::config/rateplangroupdescs",
+                "prop_config_test::config/requestcodetypes",
+                "prop_config_test::config/roomcategories",
+                "prop_config_test::config/roomstates",
+                "prop_config_test::config/roomstatuses",
+                "prop_config_test::config/satisfactiongtdcodes",
+                "prop_config_test::config/satisfactiongtdctgs",
+                "prop_config_test::config/staystatuses",
+                "prop_config_test::config/traceowners",
+                "prop_config_test::config/tracestatuses",
+                "prop_config_test::config/tracetypes"
+            ]
+        }, {
+            "args": [
+                {
+                    "propCode": "DALMA",
+                    "date": "{{today}}"
+                }, {
+                    "propCode": "SNACM",
+                    "date": "{{today}}"
+                }
+            ],
+            "headers": {
+                "Accept-Language": "en-US"
+            },
+            "urls": [
+                "prop_accounts_test::{{propCode}}/accounts",
+                "prop_accounts_test::{{propCode}}/accounts/{{accountId}}",
+                "prop_accounts_test::{{propCode}}/accounts/{{accountId}}/folios",
+                "prop_accounts_test::{{propCode}}/accounts/{{accountId}}/folios/{{folioId}}",
+                "prop_accounts_test::{{propCode}}/accounts/{{accountId}}/folios/{{folioId}}/receipts/{{receiptId}}",
+                "prop_audit_test::{{propCode}}/audit/accountslog/{{date}}",
+                "prop_audit_test::{{propCode}}/audit/batchchargeslog/{{date}}",
+                "prop_audit_test::{{propCode}}/audit/chargelog/{{chargeId}}",
+                "prop_audit_test::{{propCode}}/audit/configlog/{{date}}",
+                "prop_config_test::{{propCode}}/config",
+                "prop_config_test::{{propCode}}/config/accountfields",
+                "prop_config_test::{{propCode}}/config/acctctgs",
+                "prop_config_test::{{propCode}}/config/groupfields",
+                "prop_config_test::{{propCode}}/config/guaranteetypes",
+                "prop_config_test::{{propCode}}/config/guestfields",
+                "prop_config_test::{{propCode}}/config/linkedprops",
+                "prop_config_test::{{propCode}}/config/locales",
+                "prop_config_test::{{propCode}}/config/notifications",
+                "prop_config_test::{{propCode}}/config/rateplangroups",
+                "prop_config_test::{{propCode}}/config/regcardfields",
+                "prop_config_test::{{propCode}}/config/registrationfields",
+                "prop_config_test::{{propCode}}/config/reportfields",
+                "prop_config_test::{{propCode}}/config/requestcodes",
+                "prop_config_test::{{propCode}}/config/voucherreasons",
+                "prop_folio_test::{{propCode}}/groups/{{groupId}}/folios",
+                "prop_folio_test::{{propCode}}/groups/{{groupId}}/folios/{{folioId}}",
+                "prop_folio_test::{{propCode}}/groups/{{groupId}}/folios/{{folioId}}/receipts/{{receiptId}}",
+                "prop_folio_test::{{propCode}}/stays/{{stayId}}/folios",
+                "prop_folio_test::{{propCode}}/stays/{{stayId}}/folios/{{folioId}}",
+                "prop_folio_test::{{propCode}}/stays/{{stayId}}/folios/{{folioId}}/receipts",
+                "prop_folio_test::{{propCode}}/stays/{{stayId}}/folios/{{folioId}}/receipts/{{receiptId}}",
+                "prop_postingcodes_test::{{propCode}}/postingcodes"
+            ]
+        }
+    ]
+}

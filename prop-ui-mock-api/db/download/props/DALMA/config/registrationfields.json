@@ -1,0 +1,21 @@
+{
+    "itemId": "registrationfields",
+    "locale": "en-US",
+    "propCode": "DALMA",
+    "type": "conf",
+    "registrationfields": [
+        {
+            "activeFlag": false,
+            "fieldDesc": "Passport Number",
+            "fieldId": 1,
+            "length": 25,
+            "printCaption": "Passport Number",
+            "printOnFolioFlag": false,
+            "protectedFlag": false,
+            "requiredByGuarantorFlag": false,
+            "requiredFlag": false,
+            "type": 1,
+            "uiCaption": "Passport Number"
+        }
+    ]
+}

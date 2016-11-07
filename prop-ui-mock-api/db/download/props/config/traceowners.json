@@ -1,0 +1,63 @@
+{
+    "itemId": "traceowners",
+    "locale": "en-US",
+    "type": "conf",
+    "traceowners": [
+        {
+            "ownerDesc": "Frontdesk",
+            "ownerType": "FD"
+        },
+        {
+            "ownerDesc": "Reservations",
+            "ownerType": "RV"
+        },
+        {
+            "ownerDesc": "Bell Desk",
+            "ownerType": "BD"
+        },
+        {
+            "ownerDesc": "Night Audit",
+            "ownerType": "NA"
+        },
+        {
+            "ownerDesc": "General Manager",
+            "ownerType": "GM"
+        },
+        {
+            "ownerDesc": "Accounting",
+            "ownerType": "AC"
+        },
+        {
+            "ownerDesc": "Restaurant",
+            "ownerType": "RT"
+        },
+        {
+            "ownerDesc": "Bar",
+            "ownerType": "BR"
+        },
+        {
+            "ownerDesc": "Room Service",
+            "ownerType": "RS"
+        },
+        {
+            "ownerDesc": "Housekeeping",
+            "ownerType": "HK"
+        },
+        {
+            "ownerDesc": "Maintenance",
+            "ownerType": "MN"
+        },
+        {
+            "ownerDesc": "Banquet",
+            "ownerType": "BQ"
+        },
+        {
+            "ownerDesc": "Sales",
+            "ownerType": "SL"
+        },
+        {
+            "ownerDesc": "PBX",
+            "ownerType": "PX"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "@prop-ui/mock-api",
+    "version": "1.0.0",
+    "description": "Mock Property API Services",
+    "main": "index.js",
+    "scripts": {
+        "generator": "NODE_TLS_REJECT_UNAUTHORIZED=0 node lib/generator/index.js",
+        "clean": "rimraf dist/* && rimraf swagger-express-middleware-*",
+        "start": "npm run clean && node server.js"
+    },
+    "devDependencies": {
+        "cli-color": "1.1.0",
+        "express": "4.14.0",
+        "fs-extra": "0.30.0",
+        "jsonfile": "2.4.0",
+        "mkdirp": "0.5.1",
+        "moment": "2.15.0",
+        "prompt": "1.0.0",
+        "q": "1.4.1",
+        "recursive-readdir": "2.1.0",
+        "rimraf": "2.5.4",
+        "swagger-express-middleware": "1.0.0-alpha.12",
+        "yamljs": "0.2.8"
+    }
+}

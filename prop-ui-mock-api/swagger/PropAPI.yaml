@@ -1,0 +1,341 @@
+swagger: '2.0'
+info:
+  version: 1.0.10
+  title: Prop Services API
+  description: The Prop Services API supports the ability to search for properties and retrieve property information.
+  x-error-context: PROP
+paths:
+  /props:
+    get:
+      operationId: SearchProps
+      tags:
+        - props
+      description: |
+        Retrieve a list of properties.
+
+        Valid query strings are
+          * none - retrieve all properties
+          * distributionBrand - retrieve all properties within the given brand(s)
+          * country - retrieve properties by country
+          * country, distributionBrand - retrieve properties by country and brand(s)
+          * state, country - retrieve properties by state
+          * state, country, distributionBrand - retrieve properties by state and brand(s)
+          * city, state, country - retrieve properties by city
+          * city, state, country, distributionBrand - retrieve properties by city and brand(s)
+          * country, postalCode - retrieve properties by postal code
+          * country, postalCode, distributionBrand - retrieve properties by postal code and brand(s)
+          * latitude, longitude, radius, radiusUnits - retrieve properties within a radius
+          * latitude, longitude, radius, radiusUnits, distributionBrand - retrieve properties by brand(s) within a radius
+      produces:
+        - application/json
+      parameters:
+        - name: city
+          in: query
+          description: Property city
+          required: false
+          type: string
+        - name: state
+          in: query
+          description: Property state
+          required: false
+          type: string
+        - name: country
+          in: query
+          description: Property country
+          required: false
+          type: string
+        - name: postalCode
+          in: query
+          description: Property postal code
+          required: false
+          type: string
+        - name: latitude
+          in: query
+          description: latitudinal center of a radius search
+          required: false
+          type: number
+          format: double
+        - name: longitude
+          in: query
+          description: longitudinal center of a radius search
+          required: false
+          type: number
+          format: double
+        - name: radius
+          in: query
+          description: search radius
+          required: false
+          type: integer
+        - name: radiusUnits
+          in: query
+          description: search radius units (M)iles or (K)ilometers
+          required: false
+          type: string
+          enum:
+            - M
+            - K
+        - name: distributionBrand
+          in: query
+          description: Filter by single or comma-delimited list of brands.
+          required: false
+          type: array
+          items:
+            type: string
+          collectionFormat: csv
+        - name: offset
+          in: query
+          type: integer
+          description: Offset the list of returned results by this amount. Default is zero.
+        - name: limit
+          in: query
+          type: integer
+          description: Number of items to retrieve. Default is all.
+      responses:
+        '200':
+          description: Success
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Prop'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/ErrorDetail'
+    post:
+      operationId: CreateProp
+      tags:
+        - props
+      description: Creates a property.
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: prop
+          in: body
+          description: Property
+          required: true
+          schema:
+            $ref: '#/definitions/Prop'
+      responses:
+        '201':
+          description: Created.
+          headers:
+            Location:
+              type: string
+              description: "Returned on successful creation of a new resource. A link to the newly-created resouce will be contained in the 'Location' header."
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/ErrorDetail'
+        '409':
+          description: Resource already exists
+
+  '/props/{propCode}':
+    parameters:
+      - name: propCode
+        in: path
+        description: Property Code
+        required: true
+        type: string
+    get:
+      operationId: ReadProp
+      tags:
+        - props
+      description: Retrieve a single property.
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Prop'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/ErrorDetail'
+        '404':
+          description: Resource not found
+    put:
+      operationId: UpdateProp
+      tags:
+        - props
+      description: Updates a property.
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: prop
+          in: body
+          description: Property
+          required: true
+          schema:
+            $ref: '#/definitions/Prop'
+      responses:
+        '204':
+          description: Success
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/ErrorDetail'
+        '404':
+          description: Resource not found
+
+definitions:
+  Prop:
+    type: object
+    properties:
+      propCode:
+        type: string
+        description: Property Code
+        pattern: ^[A-Z]{4,5}$
+      distributionBrand:
+        type: string
+        description: Distribution Brand Code
+        pattern: ^[A-Z]{2}$
+      ctyhocn:
+        type: string
+        description: Property CTYHOCN
+        pattern: ^[A-Z]{6,7}$
+      name:
+        type: string
+        description: Property Name
+      totalRooms:
+        type: integer
+        description: Total Room Inventory at Property
+      address:
+        $ref: '#/definitions/PropAddress'
+      localization:
+        $ref: '#/definitions/PropLocalization'
+      contactinfo:
+        $ref: '#/definitions/PropContactInfo'
+      bookingparameters:
+        $ref: '#/definitions/PropBookingParams'
+      capabilities:
+        $ref: '#/definitions/PropCapabilities'
+
+  PropAddress:
+    type: object
+    properties:
+      addressLine1:
+        type: string
+        description: Property Address Line 1
+      addressLine2:
+        type: string
+        description: Property Address Line 2
+      addressLine3:
+        type: string
+        description: Property Address Line 3
+      addressLine4:
+        type: string
+        description: Property Address Line 4
+      city:
+        type: string
+        description: Property City
+      state:
+        type: string
+        description: Property State
+      country:
+        type: string
+        description: Property Country (ISO 3166-1)
+      postalCode:
+        type: string
+        description: Property State/Province (ISO 3166-2)
+
+  PropLocalization:
+    type: object
+    properties:
+      timeZone:
+        type: string
+        description: GMT Offset of Property
+      latitude:
+        type: number
+        format: double
+        minimum: -90
+        maximum: 90
+        description: Marketing Latitude of Property
+      longitude:
+        type: number
+        format: double
+        minimum: -180
+        maximum: 180
+        description: Marketing Longitude of Property
+      currency:
+        type: string
+        description: Property Default Currency
+
+  PropContactInfo:
+    type: object
+    properties:
+      emailAddress1:
+        type: string
+        description: Property Contact Email Address 1
+        x-customvalidator: email
+      emailAddress2:
+        type: string
+        description: Property Contact Email Address 2
+        x-customvalidator: email
+      phoneNumber:
+        type: string
+        description: Property Phone Number
+      phoneExtension:
+        type: string
+        description: Phone Extension
+      faxNumber:
+        type: string
+        description: Property Fax Number
+
+  PropBookingParams:
+    type: object
+    properties:
+      status:
+        type: string
+        description: Property Status (O)pen, (S)easonal Closure, (T)emporarily Removed, (U)nder Construction
+      rewardCategory:
+        type: integer
+        description: HHonors Reward Category
+
+  PropCapabilities:
+    type: object
+    properties:
+      digitalCheckIn:
+        type: boolean
+        description: Digital CheckIn Enabled
+      digitalKey:
+        type: boolean
+        description: Digital Key Enabled
+
+  ErrorDetail:
+    required:
+      - context
+      - code
+      - message
+    type: object
+    properties:
+      context:
+        type: string
+      code:
+        type: integer
+      message:
+        type: string
+      notifications:
+        type: array
+        items:
+          $ref: '#/definitions/ErrorNotification'
+
+  ErrorNotification:
+    required:
+      - message
+    type: object
+    properties:
+      code:
+        type: string
+      fields:
+        type: array
+        items:
+          type: string
+      message:
+        type: string
+
+

@@ -1,0 +1,125 @@
+{
+    "itemId": "satisfactiongtdctgs",
+    "locale": "en-US",
+    "type": "conf",
+    "satisfactiongtdctgs": [
+        {
+            "gtdCatCode": "H",
+            "gtdCatDesc": "Housekeeping",
+            "traceOwner": "HK",
+            "gtdCodes": [
+                "HB",
+                "HC",
+                "HD",
+                "HF",
+                "HI",
+                "HL",
+                "HO",
+                "HR",
+                "HS",
+                "HZ"
+            ]
+        },
+        {
+            "gtdCatCode": "M",
+            "gtdCatDesc": "Maintenance",
+            "traceOwner": "MN",
+            "gtdCodes": [
+                "MB",
+                "MC",
+                "MG",
+                "MH",
+                "MI",
+                "ML",
+                "MP",
+                "MR",
+                "MT",
+                "MW",
+                "MZ"
+            ]
+        },
+        {
+            "gtdCatCode": "R",
+            "gtdCatDesc": "Reservations",
+            "traceOwner": "FD",
+            "gtdCodes": [
+                "RC",
+                "RD",
+                "RG",
+                "RH",
+                "RI",
+                "RL",
+                "RM",
+                "RO",
+                "RQ",
+                "RR",
+                "RT",
+                "RU",
+                "RZ"
+            ]
+        },
+        {
+            "gtdCatCode": "S",
+            "gtdCatDesc": "Service",
+            "traceOwner": "GM",
+            "gtdCodes": [
+                "SB",
+                "SC",
+                "SD",
+                "SF",
+                "SG",
+                "SH",
+                "SM",
+                "SV",
+                "SW",
+                "SZ"
+            ]
+        },
+        {
+            "gtdCatCode": "F",
+            "gtdCatDesc": "Food & Beverage",
+            "traceOwner": "FD",
+            "gtdCodes": [
+                "FB",
+                "FC",
+                "FF",
+                "FL",
+                "FM",
+                "FR",
+                "FS",
+                "FZ"
+            ]
+        },
+        {
+            "gtdCatCode": "O",
+            "gtdCatDesc": "Other",
+            "traceOwner": "GM",
+            "gtdCodes": [
+                "OA",
+                "OB",
+                "OI",
+                "ON",
+                "OP",
+                "OS",
+                "OZ"
+            ]
+        },
+        {
+            "gtdCatCode": "X",
+            "gtdCatDesc": "Comments",
+            "traceOwner": "GM",
+            "gtdCodes": [
+                "XC",
+                "XP"
+            ]
+        },
+        {
+            "gtdCatCode": "W",
+            "gtdCatDesc": "My Way",
+            "traceOwner": "FD",
+            "gtdCodes": [
+                "MY"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "itemId": "roomcategories",
+    "locale": "en-US",
+    "type": "conf",
+    "roomcategories": [
+        {
+            "categoryDesc": "Room",
+            "categoryId": "R"
+        },
+        {
+            "categoryDesc": "Boat Slip",
+            "categoryId": "B"
+        },
+        {
+            "categoryDesc": "Cabana",
+            "categoryId": "A"
+        },
+        {
+            "categoryDesc": "Condo",
+            "categoryId": "C"
+        }
+    ]
+}

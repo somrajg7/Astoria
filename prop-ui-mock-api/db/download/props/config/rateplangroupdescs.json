@@ -1,0 +1,11 @@
+{
+    "itemId": "rateplangroupdescs",
+    "locale": "en-US",
+    "type": "conf",
+    "rateplangroupdescs": [
+        {
+            "rateplanType": "DU",
+            "rateplanTypeDesc": "Day Use"
+        }
+    ]
+}

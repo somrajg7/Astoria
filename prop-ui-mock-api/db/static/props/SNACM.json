@@ -1,0 +1,34 @@
+{
+    "ctyhocn": "SNACMHH",
+    "distributionBrand": "HH",
+    "name": "Hilton Orange County/Costa Mesa",
+    "propCode": "SNACM",
+    "totalRooms": 240,
+    "address": {
+        "addressLine1": "3050 Bristol St.",
+        "city": "Costa Mesa",
+        "country": "United States",
+        "postalCode": "92626",
+        "state": "CA"
+    },
+    "bookingparameters": {
+        "rewardCategory": 4,
+        "status": "O"
+    },
+    "capabilities": {
+        "digitalCheckIn": true,
+        "digitalKey": false
+    },
+    "contactinfo": {
+        "emailAddress1": "Varun.Khandelwal@hilton.com",
+        "faxNumber": "7145409176",
+        "phoneExtension": "0",
+        "phoneNumber": "714540700"
+    },
+    "localization": {
+        "currency": "USD",
+        "latitude": 33.683125,
+        "longitude": -117.884445,
+        "timeZone": "GMT-06:00"
+    }
+}

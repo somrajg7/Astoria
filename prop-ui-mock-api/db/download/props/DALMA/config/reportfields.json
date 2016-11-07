@@ -1,0 +1,11 @@
+{
+    "itemId": "reportfields",
+    "propCode": "DALMA",
+    "type": "conf",
+    "reportfields": [
+        {
+            "fieldId": 2,
+            "sortOrder": 4
+        }
+    ]
+}

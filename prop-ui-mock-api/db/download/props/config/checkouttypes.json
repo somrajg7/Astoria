@@ -1,0 +1,35 @@
+{
+    "itemId": "checkouttypes",
+    "locale": "en-US",
+    "type": "conf",
+    "checkouttypes": [
+        {
+            "typeDesc": "In Person",
+            "typeId": "I"
+        },
+        {
+            "typeDesc": "Phone ZipOut",
+            "typeId": "P"
+        },
+        {
+            "typeDesc": "Room Found Vacant",
+            "typeId": "R"
+        },
+        {
+            "typeDesc": "Video Checkout",
+            "typeId": "V"
+        },
+        {
+            "typeDesc": "Group Checkout",
+            "typeId": "G"
+        },
+        {
+            "typeDesc": "Kiosk Checkout",
+            "typeId": "K"
+        },
+        {
+            "typeDesc": "Digital Checkout",
+            "typeId": "D"
+        }
+    ]
+}

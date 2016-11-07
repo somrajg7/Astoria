@@ -1,0 +1,15 @@
+{
+    "itemId": "noshowstatuses",
+    "locale": "en-US",
+    "type": "conf",
+    "noshowstatuses": [
+        {
+            "statusDesc": "Charged",
+            "statusId": "C"
+        },
+        {
+            "statusDesc": "Released",
+            "statusId": "R"
+        }
+    ]
+}

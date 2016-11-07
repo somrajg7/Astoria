@@ -1,0 +1,59 @@
+{
+    "itemId": "gueststatuses",
+    "locale": "en-US",
+    "type": "conf",
+    "gueststatuses": [
+        {
+            "statusDesc": "Guest Relocated",
+            "statusId": "relocated"
+        },
+        {
+            "statusDesc": "Guest Cancelled",
+            "statusId": "gstcancelled"
+        },
+        {
+            "statusDesc": "Hotel Cancelled",
+            "statusId": "htlcancelled"
+        },
+        {
+            "statusDesc": "Future Arrival",
+            "statusId": "futurearrival"
+        },
+        {
+            "statusDesc": "Pending Arrival",
+            "statusId": "pendingarrival"
+        },
+        {
+            "statusDesc": "No Show",
+            "statusId": "noshow"
+        },
+        {
+            "statusDesc": "Digital Key Requested",
+            "statusId": "dkeyoptin"
+        },
+        {
+            "statusDesc": "Digital Key Checkin",
+            "statusId": "dkeycheckin"
+        },
+        {
+            "statusDesc": "Front Desk Checkin",
+            "statusId": "fdcheckin"
+        },
+        {
+            "statusDesc": "Due Out",
+            "statusId": "dueout"
+        },
+        {
+            "statusDesc": "Pending Room",
+            "statusId": "pending"
+        },
+        {
+            "statusDesc": "Folio Closed",
+            "statusId": "folioclosed"
+        },
+        {
+            "statusDesc": "Folio Open",
+            "statusId": "folioopen"
+        }
+    ]
+}

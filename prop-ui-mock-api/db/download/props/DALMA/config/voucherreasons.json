@@ -1,0 +1,108 @@
+{
+    "itemId": "voucherreasons",
+    "locale": "en-US",
+    "propCode": "DALMA",
+    "type": "conf",
+    "voucherreasons": [
+        {
+            "entryType": "ADJUST",
+            "reasonDesc": "Mis-posted",
+            "reasonId": 5
+        },
+        {
+            "entryType": "ADJUST",
+            "reasonDesc": "Guest disputed charge",
+            "reasonId": 6
+        },
+        {
+            "entryType": "ADJUST",
+            "reasonDesc": "Per Management",
+            "reasonId": 7
+        },
+        {
+            "entryType": "ADJUST",
+            "reasonDesc": "Correction",
+            "reasonId": 8
+        },
+        {
+            "entryType": "ALLOWE",
+            "reasonDesc": "Mis-posted",
+            "reasonId": 9
+        },
+        {
+            "entryType": "ALLOWE",
+            "reasonDesc": "Guest disputed charge",
+            "reasonId": 10
+        },
+        {
+            "entryType": "ALLOWE",
+            "reasonDesc": "Per Management",
+            "reasonId": 11
+        },
+        {
+            "entryType": "ALLOWE",
+            "reasonDesc": "Correction",
+            "reasonId": 12
+        },
+        {
+            "entryType": "CHARGE",
+            "reasonDesc": "Mis-posted",
+            "reasonId": 13
+        },
+        {
+            "entryType": "CHARGE",
+            "reasonDesc": "Guest disputed charge",
+            "reasonId": 14
+        },
+        {
+            "entryType": "CHARGE",
+            "reasonDesc": "Per Management",
+            "reasonId": 15
+        },
+        {
+            "entryType": "CHARGE",
+            "reasonDesc": "Correction",
+            "reasonId": 16
+        },
+        {
+            "entryType": "PAYOUT",
+            "reasonDesc": "Mis-posted",
+            "reasonId": 17
+        },
+        {
+            "entryType": "PAYOUT",
+            "reasonDesc": "Guest disputed charge",
+            "reasonId": 18
+        },
+        {
+            "entryType": "PAYOUT",
+            "reasonDesc": "Per Management",
+            "reasonId": 19
+        },
+        {
+            "entryType": "PAYOUT",
+            "reasonDesc": "Correction",
+            "reasonId": 20
+        },
+        {
+            "entryType": "REFNOR",
+            "reasonDesc": "Mis-posted",
+            "reasonId": 21
+        },
+        {
+            "entryType": "REFNOR",
+            "reasonDesc": "Guest disputed charge",
+            "reasonId": 22
+        },
+        {
+            "entryType": "REFNOR",
+            "reasonDesc": "Per Management",
+            "reasonId": 23
+        },
+        {
+            "entryType": "REFNOR",
+            "reasonDesc": "Correction",
+            "reasonId": 24
+        }
+    ]
+}

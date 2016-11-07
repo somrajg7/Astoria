@@ -1,0 +1,22 @@
+{
+    "date": "2016-09-21",
+    "itemId": "conf",
+    "propCode": "DALMA",
+    "type": "audit",
+    "entries": [
+        {
+            "action": "UPDATE",
+            "docId": "en-US::DALMA::conf::registrationfields",
+            "log": "UPDATE",
+            "timestamp": "2016-09-21T06:53:24Z",
+            "userId": "no-user"
+        },
+        {
+            "action": "UPDATE",
+            "docId": "en-US::DALMA::conf::registrationfields",
+            "log": "UPDATE",
+            "timestamp": "2016-09-21T06:54:25Z",
+            "userId": "no-user"
+        }
+    ]
+}

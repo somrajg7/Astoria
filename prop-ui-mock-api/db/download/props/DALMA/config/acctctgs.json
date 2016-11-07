@@ -1,0 +1,423 @@
+{
+    "itemId": "acctctgs",
+    "locale": "en-US",
+    "propCode": "DALMA",
+    "type": "conf",
+    "acctctgs": [
+        {
+            "acctCategoryDesc": "Hotel Paidout Allowances",
+            "acctCategoryId": "AH",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Miscellaneous Allowances",
+            "acctCategoryId": "AM",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Phone Allowances",
+            "acctCategoryId": "AP",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "A/R Transfer",
+            "acctCategoryId": "AR",
+            "acctCategoryType": "TRANSFR",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Room/ Suite Allowances",
+            "acctCategoryId": "AS",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Tax Allowances",
+            "acctCategoryId": "AT",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "L"
+        },
+        {
+            "acctCategoryDesc": "Banquet Charges",
+            "acctCategoryId": "BC",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "F"
+        },
+        {
+            "acctCategoryDesc": "Bad Debt",
+            "acctCategoryId": "BD",
+            "acctCategoryType": "BADDEBT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Credit Card Allowances",
+            "acctCategoryId": "CA",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Credit Card Payments",
+            "acctCategoryId": "CC",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Credit Card Discounts",
+            "acctCategoryId": "CD",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "CHARGE ALLOWANCES",
+            "acctCategoryId": "CG",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Check Payments",
+            "acctCategoryId": "CH",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Cash Payments",
+            "acctCategoryId": "CS",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Cancellation Charges",
+            "acctCategoryId": "CX",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "R"
+        },
+        {
+            "acctCategoryDesc": "DEPOSITORY ALLOWANCES",
+            "acctCategoryId": "DA",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Direct Bill Payments",
+            "acctCategoryId": "DB",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Bank Deposit",
+            "acctCategoryId": "DP",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "DEPOSITORY PAYMENTS",
+            "acctCategoryId": "DY",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "FOOD CHARGE TIPS",
+            "acctCategoryId": "E",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Foreign Cash Payments",
+            "acctCategoryId": "FC",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Finance Charges",
+            "acctCategoryId": "FN",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "M"
+        },
+        {
+            "acctCategoryDesc": "GTD No Show Charges",
+            "acctCategoryId": "GD",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "R"
+        },
+        {
+            "acctCategoryDesc": "Guest Paidouts",
+            "acctCategoryId": "GP",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Gratuity Charges",
+            "acctCategoryId": "GR",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "M"
+        },
+        {
+            "acctCategoryDesc": "General Taxes",
+            "acctCategoryId": "GT",
+            "acctCategoryType": "TAX",
+            "acctType": "L",
+            "chargeType": "T"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paidouts",
+            "acctCategoryId": "HP",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "BEVERAGE CHARGE TIPS",
+            "acctCategoryId": "I",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "FOOD COVERS",
+            "acctCategoryId": "K",
+            "acctCategoryType": "STAT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Minimum Assessment Charges",
+            "acctCategoryId": "MC",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "M"
+        },
+        {
+            "acctCategoryDesc": "Miscellaneous Charges",
+            "acctCategoryId": "MS",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "M"
+        },
+        {
+            "acctCategoryDesc": "DEPOSITORY PAYMENTS",
+            "acctCategoryId": "NC",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET CHARGE TIPS",
+            "acctCategoryId": "OE",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET PAIDOUTS",
+            "acctCategoryId": "OJ",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET COVERS",
+            "acctCategoryId": "OK",
+            "acctCategoryType": "STAT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET CHARGES",
+            "acctCategoryId": "OQ",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "S"
+        },
+        {
+            "acctCategoryDesc": "Over/Short",
+            "acctCategoryId": "OS",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET ALLOWANCES",
+            "acctCategoryId": "OZ",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Admin and Gene",
+            "acctCategoryId": "PA",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Bar)",
+            "acctCategoryId": "PB",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Front Desk)",
+            "acctCategoryId": "PF",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Phone Charges",
+            "acctCategoryId": "PH",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "P"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Miscellaneous)",
+            "acctCategoryId": "PI",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "PACKAGE",
+            "acctCategoryId": "PK",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "K"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Maintenance)",
+            "acctCategoryId": "PM",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Housekeeping)",
+            "acctCategoryId": "PP",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Resturant)",
+            "acctCategoryId": "PR",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "Hotel Paid-Out (Sales)",
+            "acctCategoryId": "PS",
+            "acctCategoryType": "PAIDOUT",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "FOOD CHARGE",
+            "acctCategoryId": "Q",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "F"
+        },
+        {
+            "acctCategoryDesc": "Food Charges",
+            "acctCategoryId": "Q?",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Room/ Suite Allowances",
+            "acctCategoryId": "RA",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Room/ Suite Charges",
+            "acctCategoryId": "RM",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "R"
+        },
+        {
+            "acctCategoryDesc": "Room/ Suite Services Charges",
+            "acctCategoryId": "RS",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "F"
+        },
+        {
+            "acctCategoryDesc": "Room/ Suite Taxes",
+            "acctCategoryId": "RX",
+            "acctCategoryType": "TAX",
+            "acctType": "L",
+            "chargeType": "T"
+        },
+        {
+            "acctCategoryDesc": "100% Satisfaction Allowances",
+            "acctCategoryId": "SG",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Satisfaction Gtd - Non Revenue",
+            "acctCategoryId": "SN",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "L"
+        },
+        {
+            "acctCategoryDesc": "TAX",
+            "acctCategoryId": "T1",
+            "acctCategoryType": "CHARGES",
+            "acctType": "L"
+        },
+        {
+            "acctCategoryDesc": "Travel Agent Deduction Allownc",
+            "acctCategoryId": "TD",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "E"
+        },
+        {
+            "acctCategoryDesc": "OTHER OUTLET TAX",
+            "acctCategoryId": "TO",
+            "acctCategoryType": "TAX",
+            "acctType": "L",
+            "chargeType": "T"
+        },
+        {
+            "acctCategoryDesc": "FOOD OUTLET TAX",
+            "acctCategoryId": "TQ",
+            "acctCategoryType": "TAX",
+            "acctType": "L",
+            "chargeType": "T"
+        },
+        {
+            "acctCategoryDesc": "BEVERAGE OUTLET TAX",
+            "acctCategoryId": "TX",
+            "acctCategoryType": "TAX",
+            "acctType": "L",
+            "chargeType": "T"
+        },
+        {
+            "acctCategoryDesc": "BEVERAGE COVERS",
+            "acctCategoryId": "U",
+            "acctCategoryType": "STAT",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "Voucher Payments",
+            "acctCategoryId": "VO",
+            "acctCategoryType": "PAYMENT",
+            "acctType": "A"
+        },
+        {
+            "acctCategoryDesc": "Write Off Allowances",
+            "acctCategoryId": "WO",
+            "acctCategoryType": "ALLOWED",
+            "acctType": "I"
+        },
+        {
+            "acctCategoryDesc": "BEVERAGE CHARGE",
+            "acctCategoryId": "X",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I",
+            "chargeType": "B"
+        },
+        {
+            "acctCategoryDesc": "Bar Charges 4",
+            "acctCategoryId": "X?",
+            "acctCategoryType": "CHARGES",
+            "acctType": "I"
+        }
+    ]
+}
