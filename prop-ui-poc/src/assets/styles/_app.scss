@@ -1,0 +1,9 @@
+@import '~commonStyles/themes/_theme';
+@import '~commonStyles/components/_boris-button-icon';
+@import '~commonStyles/components/_hoshi-text-input';
+@import '_poc';
+@import '_data-table';
+
+#app {
+  @extend .container;
+}
