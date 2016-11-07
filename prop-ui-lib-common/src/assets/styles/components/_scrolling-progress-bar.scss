@@ -1,0 +1,12 @@
+.scrolling-progress-bar {
+  height: 7px;
+  position: relative;
+  margin-bottom: -1px;
+  border-radius: 0;
+  width: 100%;
+  transition: none;
+
+  .progress-bar {
+    background: $primary-300;
+  }
+}

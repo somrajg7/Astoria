@@ -1,0 +1,118 @@
+.cbutton--effect-boris {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  padding: 0;
+  border: none;
+  color: $neutral-700;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  text-transform: none;
+
+  &.icon-btn {
+    background: none;
+  }
+
+  &.btn-sm {
+    > svg {
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  > svg {
+    height: 17px;
+    width: 17px;
+
+    .cls-1 {
+      fill: $neutral-700;
+    }
+  }
+
+  &:hover {
+    color: $neutral-400;
+
+    > svg {
+      .cls-1 {
+        fill: $neutral-400;
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+    color: $neutral-400;
+  }
+
+  &:focus {
+    &:active {
+      &:hover {
+        color: $neutral-400;
+        outline: none;
+      }
+    }
+  }
+
+  &:active {
+    color: $neutral-700;
+  }
+
+  &:disabled {
+    color: $disabled-700;
+    cursor: default;
+
+    &:hover {
+      color: $disabled-700;
+    }
+
+    svg {
+      .cls-1 {
+        fill: $disabled-700;
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: -35px 0 0 -35px;
+    transform: translate(-45%,-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(111,148,182,0.1);
+
+    &:hover {
+      color: $neutral-400;
+    }
+  }
+}
+
+.cbutton--click {
+  outline: none;
+
+  &:after {
+    animation: anim-effect-boris 0.3s forwards;
+  }
+  @keyframes anim-effect-boris {
+    0% {
+      transform: scale3d(0.3, 0.3, 1);
+    }
+
+    25%,
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      transform: scale3d(1.2, 1.2, 1);
+    }
+  }
+}

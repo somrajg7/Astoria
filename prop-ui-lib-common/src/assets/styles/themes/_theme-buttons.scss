@@ -1,0 +1,180 @@
+// Button Overrides and Unique button classes
+// ===========================================
+
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+  @include transition(all .3s);
+  font-weight: 500;
+  outline: none;
+  letter-spacing: 1px;
+
+  & > svg {
+    .cls-1 {
+      fill: $neutral-100;
+    }
+  }
+
+  &:active {
+    @include box-shadow(none);
+    outline: none;
+  }
+}
+
+.btn-lg {
+  height: 54px;
+  font-size: $btn-font-size-lg;
+  min-width: 200px;
+
+  & > svg {
+    height: 18px;
+    width: 18px;
+    margin: 0 13px -2px 0;
+  }
+}
+
+.btn-sm {
+  height: 42px;
+  font-size: $btn-font-size-md;
+  min-width: $btn-primary-min-width;
+
+  & > svg {
+    height: 13px;
+    width: 13px;
+    margin: 0 7px -1px 0;
+  }
+
+  &.btn-option {
+    height: 40px;
+  }
+}
+
+.btn-xs {
+  height: 35px;
+  min-width: 105px;
+
+  & > svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.icon-btn {
+  cursor: pointer;
+  height: 17px;
+  width: 17px;
+  display: inline;
+  position: relative;
+
+  & > svg {
+    height: 17px;
+    width: 17px;
+
+    .cls-1 {
+      fill: $neutral-400;
+    }
+  }
+
+  & > label {
+    padding-left: 5px;
+    color: $neutral-400;
+  }
+}
+
+.btn-primary {
+  background: $btn-primary-bg;
+
+  &:hover {
+    background: $btn-primary-bg-hover;
+  }
+
+  &:active {
+    background: $btn-primary-bg-down;
+  }
+}
+
+.btn-success {
+  background: $btn-success-bg;
+
+  &:hover {
+    background: $btn-success-bg-hover;
+  }
+
+  &:active {
+    background: $btn-success-bg-down;
+  }
+}
+
+.btn-option {
+  border-color: $btn-option-border;
+  color: $btn-option-font-color;
+  background: transparent;
+  outline: none;
+
+  &:hover {
+    color: $btn-option-hover;
+    border-color: $btn-option-hover;
+  }
+
+  &:focus {
+    border: 2px solid $primary-300;
+    //outline: none;
+  }
+
+  &.active,
+  &:active {
+    background-image: none;
+    outline: thin dotted;
+    color: $btn-option-font-color-down;
+    background-color: $btn-option-down;
+  }
+}
+
+.btn {
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    @include opacity(.65);
+    @include box-shadow(none);
+    color: $neutral-200;
+    background-color: $disabled-300;
+
+    &:focus,
+    &:hover {
+      color: $neutral-200;
+      background-color: $disabled-300;
+    }
+  }
+}
+
+.btn-secondary {
+  background: none;
+
+  &:hover {
+    background: none;
+  }
+
+  &:active {
+    background: none;
+  }
+
+  &:focus {
+    background: none;
+
+    &:hover {
+      &:active {
+        background: none;
+      }
+    }
+  }
+
+  &[disabled] {
+    background: none;
+
+    &:hover {
+      background: none;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+// style changes for tables
+
+.table {
+  margin-bottom: 0;
+  border-bottom: 1px solid #c8c8c8;
+
+  > tbody {
+    border-top: 1px solid #c8c8c8;
+  }
+
+  > tbody > tr {
+    font-size: 13px;
+    color: $aux-800;
+
+    &:last-child {}
+  }
+}
+
+.table-borderless {
+  border: none;
+
+  > tbody {
+    border: none;
+  }
+
+  > tbody > tr > td {
+    border: none;
+  }
+
+  > thead > tr > th {
+    border: none;
+  }
+}
+
+.table-striped {
+  > tbody > tr {
+    background-color: $structure-200;
+    background-color: $table-row-even;
+    height: 50px;
+
+    td {
+      .checksvg {
+        height: 20px;
+        width: 20px;
+        fill: black;
+        text-align: center;
+      }
+
+      .checkbox {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  > thead > tr > th {
+    vertical-align: middle;
+    font-size: 11px;
+    color: $aux-200;
+    padding-bottom: 18px;
+    text-indent: 15px;
+    padding-left: 0;
+    text-align: left;
+    border-bottom: none;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      right: 0;
+      content: ' ';
+      width: 1px;
+      cursor: col-resize;
+      height: 40%;
+      background-color: black;
+      opacity: 0.5;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+
+  > tbody > tr > td {
+    vertical-align: middle;
+    font-weight: 600;
+    color: $aux-800;
+    border-top: none;
+    text-align: left;
+    padding-left: 0;
+    text-indent: 15px;
+  }
+
+  > tbody > tr {
+    .active {
+      background-color: rgba(162, 195, 234, 0.35);
+    }
+  }
+
+  > tbody > tr:nth-of-type(odd) {
+    background-color: $table-row-odd;
+  }
+
+  .tdCenter {
+    text-align: center;
+    text-indent: 0;
+  }
+}

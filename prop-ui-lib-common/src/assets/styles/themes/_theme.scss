@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700,800);
+@import '_theme-alerts';
+@import '_theme-buttons';
+@import '_theme-checkbox';
+@import '_theme-input-groups';
+@import '_theme-list-group';
+@import '_theme-modals';
+@import '_theme-navs';
+@import '_theme-panels';
+@import '_theme-radio';
+@import '_theme-select';
+@import '_theme-tables';
+@import '_theme-typography';
+
+body,
+html {
+  height: 100%;
+  font-family: 'Open Sans' !important;
+}
+
+.container {
+  width: 100%;
+  min-width: 1024px;
+  margin: 0;
+  padding: 0;
+}

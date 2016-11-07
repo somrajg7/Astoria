@@ -1,0 +1,281 @@
+@import 'bootstrap-select/sass/variables';
+@import 'bootstrap-select/sass/bootstrap-select';
+
+.form-group {
+  display: inline-block;
+
+  &.place-holder-selected {
+    .dropdown-toggle {
+      .filter-option {
+        color: $aux-100 !important;
+      }
+    }
+  }
+
+  .bootstrap-select.btn-group .dropdown-toggle {
+    padding-left: 7px;
+    padding-right: 0;
+
+    .filter-option {
+      font-weight: 700;
+      color: $aux-400;
+    }
+
+    .caret {
+      right: 7px;
+    }
+  }
+
+  &.form-group-lg .bootstrap-select {
+    min-width: 230px;
+  }
+
+  &.form-group-sm .bootstrap-select {
+    min-width: 185px;
+  }
+
+  &.form-group-xs .bootstrap-select {
+    .dropdown-toggle {
+      margin-right: 17px;
+
+      .filter-option {
+        color: $aux-400;
+      }
+    }
+  }
+
+  &.place-holder-selected.form-group-xs {
+    .bootstrap-select {
+      .dropdown-toggle {
+        .filter-option {
+          color: $brand-700 !important;
+        }
+      }
+    }
+  }
+}
+
+.form-group.select-form-group {
+  &.place-holder-selected {
+    &.form-group-sm {
+      label.control-label {
+        display: none;
+      }
+    }
+
+    .bootstrap-select.form-control {
+      color: $aux-100;
+    }
+  }
+
+  .bootstrap-select {
+    &.form-control {
+      width: initial;
+
+      &:active {
+        border-bottom: none !important;
+      }
+    }
+
+    .btn-default:active,
+    .btn-default:active:hover,
+    .btn-default:focus,
+    .btn-default:hover {
+      background: white;
+    }
+  }
+
+  &.form-group-sm {
+    label.control-label {
+      display: block;
+    }
+  }
+
+  .bootstrap-select {
+    .dropdown-toggle {
+      height: 40px;
+    }
+
+    .dropdown-toggle:hover {
+      border-color: $brand-400;
+      color: $aux-200;
+    }
+
+    .dropdown-toggle:focus {
+      border-color: $aux-300;
+      color: $aux-400;
+      outline: none !important;
+    }
+  }
+
+  &.form-group-xs {
+    .bootstrap-select {
+      width: initial;
+
+      .dropdown-toggle {
+        border: none;
+        background: transparent;
+
+        &:focus:hover {
+          background: transparent;
+        }
+
+        .caret {
+          width: 10px;
+          height: 6px;
+        }
+      }
+    }
+  }
+
+  label.control-label {
+    top: 0;
+    color: $success-600;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+  }
+}
+
+.form-group-sm .bootstrap-select .dropdown-menu {
+  top: 30px;
+  padding: 11px 0 0 11px;
+}
+
+.form-group-xs .bootstrap-select .dropdown-menu {
+  padding: 11px 0 0 14px;
+}
+
+.bootstrap-select {
+  &.open > .btn.dropdown-toggle {
+    background: white;
+    box-shadow: none;
+  }
+
+  .dropdown-menu {
+    top: 30px;
+    padding: 18px 0 0 17px;
+
+    li {
+      :focus {
+        outline: none;
+      }
+
+      a {
+        padding: 0 0 19px;
+        position: relative;
+        font-weight: 600;
+
+        &.placeHolder {
+          color: $aux-100;
+        }
+
+        &:hover {
+          background-color: transparent;
+          color: $brand-900;
+        }
+      }
+
+      &.selected {
+        a span.text {
+          color: $brand-700;
+
+          &:after {
+            display: inline-block;
+            position: absolute;
+            top: 6px;
+            right: 13px;
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-image: url('../../images/checkbox-check.svg');
+          }
+        }
+      }
+    }
+  }
+
+  .dropdown-menu,
+  .form-control {
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .form-control {
+    font-size: 12px;
+    margin-bottom: 0;
+
+    span {
+      margin-left: 8px;
+    }
+  }
+
+  .btn {
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $aux-300;
+    text-transform: none;
+  }
+
+  &.open {
+    > .btn-default {
+      &.btn.form-control {
+        background-color: transparent;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  span.caret {
+    -webkit-mask: url('../../images/chevron-down.svg') no-repeat 50% 50%;
+    mask: url('../../images/chevron-down.svg#maskid');
+    background-color: $brand-800;
+    border: none;
+    width: 12px;
+    height: 7px;
+  }
+}
+
+.form-group.place-holder-selected .dropdown-menu li.selected a span.text:after {
+  display: none;
+}
+
+.form-group-sm .dropdown-menu li.selected a span.text:after {
+  right: 9px;
+}
+
+.form-group-xs .dropdown-menu li.selected a span.text:after {
+  right: 8px;
+}
+
+.form-group-sm.select-form-group {
+  .bootstrap-select {
+    height: initial;
+
+    .dropdown-toggle {
+      height: 28px;
+    }
+
+    &.form-control {
+      font-size: 12px;
+    }
+
+    .dropdown-menu {
+      li {
+        a {
+          padding: 0 0 13px;
+        }
+      }
+    }
+
+    span.caret {
+      width: 10px;
+      height: 6px;
+    }
+  }
+}

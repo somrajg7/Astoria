@@ -1,0 +1,77 @@
+// style changes for radio buttons
+
+.radio {
+  margin-bottom: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(45%);
+
+  label {
+    padding-left: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: $aux-600;
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  &:hover {
+    .cr {
+      border-color: $primary-300;
+    }
+  }
+
+  .cr {
+    color: $primary-300;
+    position: relative;
+    display: inline-block;
+    border: 1px solid $structure-800;
+    width: 23px;
+    height: 23px;
+    float: left;
+    margin-right: 0.5em;
+    border-radius: 50%;
+
+    .cr-icon {
+      position: relative;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: $brand-400;
+      transform: translate(45%,45%);
+    }
+  }
+}
+
+.radio label input[type='radio'] {
+  display: none;
+}
+
+.radio label input[type='radio'] + .cr > .cr-icon {
+  opacity: 0;
+}
+
+.radio label input[type='radio']:checked + .cr > .cr-icon {
+  opacity: 1;
+}
+
+.radio label input[type='radio']:disabled + .cr {
+  // opacity: .5;
+  color: $aux-100;
+}
+@media screen and (max-width: $media-break-point) {
+  .radio .cr {
+    color: $brand-400;
+    width: 19px;
+    height: 19px;
+  }
+
+  .radio .cr .cr-icon {
+    width: 9px;
+    height: 9px;
+  }
+}

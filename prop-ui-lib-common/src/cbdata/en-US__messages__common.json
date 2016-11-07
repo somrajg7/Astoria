@@ -1,0 +1,9 @@
+{
+  "itemId": "common",
+  "locale": "en-US",
+  "type": "messages",
+  "messages": {
+    "common1": "common1",
+    "common2": "common2"
+  }
+}

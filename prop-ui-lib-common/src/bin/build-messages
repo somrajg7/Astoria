@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+// Parse args and execute message builder
+const args = require('minimist')(process.argv.slice(2));
+const buildMessages = require('../lib/messages-builder');
+buildMessages(args.i, args.c, args.o);

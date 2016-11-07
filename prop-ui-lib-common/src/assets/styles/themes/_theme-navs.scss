@@ -1,0 +1,93 @@
+// style changes for navgation bars
+// bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_navs.scss
+
+.nav-pills {
+  &.nav-stacked {
+    > li {
+      // float: none;
+      list-style-type: none;
+      background-color: transparent;
+      white-space: nowrap;
+      border: none;
+      margin: 20px 0;
+      color: $neutral-300;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0;
+      display: block;
+
+      a {
+        color: $neutral-300;
+        @include transition(all .3s);
+        cursor: pointer;
+        padding: 0;
+        display: block;
+      }
+
+      &.active {
+        border-bottom: none;
+        color: $aux-600;
+      }
+
+      &.active > a {
+        color: $aux-600;
+        background-color: transparent;
+
+        &:focus,
+        &:hover {
+          color: $aux-600;
+        }
+      }
+
+      + li {
+        margin-top: 2px;
+        margin-left: 0; // no need for this gap between nav items
+
+        a {
+          &:focus,
+          &:hover {
+            color: $aux-600;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  > li {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    // Links rendered as pills
+    a {
+      color: $neutral-300;
+      @include transition(all .3s);
+      text-transform: uppercase;
+    }
+
+    + li {
+      margin-left: 2px;
+
+      a {
+        &:focus,
+        &:hover {
+          color: $brand-400;
+          background-color: transparent;
+        }
+      }
+    }
+    // Active state
+    &.active > a {
+      &,
+      &:focus,
+      &:hover {
+        color: $brand-400;
+        background-color: transparent;
+      }
+    }
+  }
+}

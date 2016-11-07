@@ -1,0 +1,37 @@
+// style changes for lists
+// // bootstrap-sass-3.3.6\assets\stylesheets\bootstrap\_list-groups.scss
+
+.list-group {
+  li {
+    cursor: pointer;
+  }
+
+  .list-group-item {
+    border: none;
+    margin: 20px 0;
+    color: $neutral-300;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    @include transition(all .3s);
+
+    &:hover {
+      color: $aux-300;
+    }
+
+    &.active,
+    :active {
+      color: $aux-400;
+    }
+
+    &:disabled {
+      color: $disabled-300;
+    }
+
+    &:first-child {
+      margin-top: 32px;
+    }
+  }
+}

@@ -1,0 +1,140 @@
+// style changes for checkboxed
+
+.checkbox {
+  display: block;
+  margin-bottom: 23px;
+
+  &.inline-block {
+    display: inline-block;
+    padding-right: 39px;
+  }
+
+  label {
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: $aux-600;
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  .cr {
+    color: $brand-700;
+    position: relative;
+    display: inline-block;
+    border: 1px solid $structure-800;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+    border-color: $neutral-500;
+    @include transform-origin(center);
+    cursor: pointer;
+
+    &:hover {
+      border-color: $brand-600;
+      @include transition(all .2s);
+    }
+
+    .cr-icon {
+      position: absolute;
+      font-size: 13px;
+      line-height: 0;
+      left: 0;
+      fill: $brand-700;
+      margin: 2px;
+      height: 17px;
+      width: 17px;
+      @include transform-origin(center);
+
+      .checkbox {
+        position: relative;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .checkbox label:after {
+        content: '';
+        display: table;
+        clear: both;
+        text-align: center;
+      }
+
+      .checkbox .cr {
+        color: $primary-300;
+        position: relative;
+        display: inline-block;
+        background-color: $neutral-100;
+        border: 1px solid $structure-800;
+        border-radius: 0.25em;
+        width: 24px;
+        height: 24px;
+        float: left;
+        margin-right: 0.5em;
+      }
+
+      svg {
+        fill: $brand-700;
+        @include transform-origin(center);
+      }
+    }
+  }
+}
+
+.checkbox label input[type='checkbox'] {
+  display: none;
+}
+
+.checkbox label input[type='checkbox'] + .cr > .cr-icon {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  @include transform-origin(center);
+  @include transition(all .3s);
+}
+
+.checkbox label input[type='checkbox']:checked + .cr > .cr-icon {
+  opacity: 1;
+  height: 17px;
+  width: 17px;
+  @include transform-origin(center);
+}
+
+.checkbox label input[type='checkbox']:disabled + .cr {
+  // opacity: .5;
+  color: $aux-100;
+}
+@media screen and (max-width: $media-break-point) {
+  .checkbox {
+    margin-bottom: 15px;
+
+    &.inline-block {
+      padding-right: 34px;
+    }
+
+    label {
+      padding-left: 14px;
+      font-size: 15px;
+    }
+
+    .cr {
+      color: $brand-700;
+      width: 20px;
+      height: 20px;
+
+      .cr-icon {
+        font-size: 10px;
+        left: 0;
+        height: 16px;
+        width: 16px;
+        margin: 1px;
+      }
+    }
+  }
+}
